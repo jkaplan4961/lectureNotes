@@ -1,0 +1,89 @@
+.wrapper {
+    margin: 5px
+}
+.skin {
+    display:block;
+    width:266px; 
+ /* width has to be 70% of height */
+ /* could use width:70%; in a square container */
+    height:380px;
+    background-color:rgba(170, 130, 0, 0.966);
+ 
+ /* beware that Safari needs actual
+  px for border radius (bug) */
+    -webkit-border-radius:63px 63px 63px 63px/
+    108px 108px 72px 72px;
+    /* fails in Safari, but overwrites in Chrome */
+    border-radius:50% 50% 50% 50%/60% 60% 40% 40%;
+}
+.biglefteye {
+    width: 60px;
+    height: 60px;
+    border: solid 1px rgb(17, 7, 6);
+    border-radius: 30px;
+    z-index: 1;
+    position: relative;
+    left: 80px;
+    top: 120px;
+    background-color: white; 
+}
+
+.bigrighteye {
+    width: 60px;
+    height: 60px;
+    border: solid 1px rgb(204, 47, 42);
+    border-radius: 30px;
+    z-index: 1;
+    position: relative;
+    left: 154px;
+    top: 60px;
+    background-color: white;  
+}
+.lefteye {
+    
+    width: 16px;
+    height: 16px;
+    border: solid 1px black;
+    border-radius: 3px;
+    z-index: 1;
+    position: relative;
+    left: 102px;
+    top: 26px;
+    background-color: black; 
+}
+
+.righteye {
+    width: 16px;
+    height: 16px;
+    border: solid 1px black;
+    border-radius: 3px;
+    z-index: 1;
+    position: relative;
+    left: 174px;
+    top: 18px;
+    background-color: black; 
+}
+
+.nose {
+      width: 200px;
+      height: 100px;
+      background: red;
+      border-radius: 100px / 50px;
+      left: 124px;
+      top: 60px;
+    
+}
+.nose2 {
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid black;
+    border-top: 30px solid black;
+    border-left: 30px solid yellow;
+    border-right: 30px solid yellow;
+    -moz-border-radius: 60px; 
+    -webkit-border-radius: 60px; 
+    border-radius: 60px;
+    position: top;
+    left: 20;
+    top: 20;
+}

@@ -1,0 +1,36 @@
+h1 {
+    color: ffbe0b
+  
+    ;
+    text-align: center;
+  }
+  ​
+  h3 {
+    color: blue;
+  }
+  ​
+  p {
+    color: red;
+  }
+  ​
+  #wrapper {
+    border: solid 10px black;
+    border-radius: 30px;
+    background-color: grey;
+  }
+  ​
+  .truthLie {
+    border: solid 2px black;
+    border-radius: 30px;
+    background-color: lightgrey;
+    text-align: center;
+  }
+  ​
+  #align {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  background: hsla(197, 37%, 24%, 1);
+  
+
+  
