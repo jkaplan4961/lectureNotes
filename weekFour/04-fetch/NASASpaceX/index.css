@@ -1,0 +1,25 @@
+.card{
+    border-color: #010711;
+    border-style: solid;
+    border-width: medium;
+  }
+
+  .container {
+    align-items: flex-end;
+  }
+  .card {
+    flex-grow: 4; 
+    margin: 15px;
+    ;
+  }
+  body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/766/191/816/rocket-spacex-falcon-heavy-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  img {
+    height: 200px;
+  }
