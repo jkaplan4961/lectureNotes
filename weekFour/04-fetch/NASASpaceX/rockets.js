@@ -43,7 +43,7 @@ function displayRockets(rockets){
         // ?come back to this
         // rocket.innerText = r.name + '    -   Cost Per Launch: $' + r.cost_per_launch + ' Million';
         title.textContent =r.name;
-        para.textContent = "The History of this rocket is: " +r.description;
+        para.textContent = "The History of this rocket is that " +r.description;
         // para.textContent = "The History of this rocket is: " +r.description;
         // title.textContent =r.stages;
 
