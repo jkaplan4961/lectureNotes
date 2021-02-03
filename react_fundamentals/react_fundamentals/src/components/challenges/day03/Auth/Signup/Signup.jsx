@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-const Login = () => {
+const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   function emailOnChange(event) {

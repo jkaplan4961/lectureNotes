@@ -1,6 +1,6 @@
 // imrs
 import React, { useState } from 'react';
-import Login from "./Login/Login";
+import Login from "./NewLogin/NewLogin";
 import Signup from "./Signup/Signup";
 // sfc
 
@@ -8,7 +8,7 @@ const Auth = () => {
 
     const [showLogin, setShowLogin] = useState(true);
 
-    function handToggle() {
+    function handleToggle() {
 
         setShowLogin(!showLogin);
         // if (showLogin === true) {
