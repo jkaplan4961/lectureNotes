@@ -1,3 +1,5 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Auth from "./components/challenges/day03/Auth/Auth";
 
